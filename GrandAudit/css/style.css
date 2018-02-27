@@ -206,7 +206,7 @@ header {
 #jumbo {
   height: 445px;
   background-color: #003045;
-  background: url(../img/fonKazan.png) no-repeat no-repeat;
+  background: url(/GrandAudit/img/fonKazan.png) no-repeat no-repeat;
   background-position: 50% 50%; }
   #jumbo h1 {
     font-family: 'Times New Roman', Times, serif;
