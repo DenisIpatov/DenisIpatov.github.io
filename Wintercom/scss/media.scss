@@ -1,0 +1,131 @@
+@media (min-width: 1200px) {
+    // .container{
+    //     width: 1280px;
+    // }
+}
+
+@media (max-width: 991px) {
+    .navbar-default .navbar-nav>li>a {
+        font-size: 13px;
+    }
+    .chooseSlide {
+        display: none;
+    }
+    .slideText {
+        h1 {
+            margin-bottom: 30px;
+            font-size: 46px;
+        }
+        h4 {
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+    }
+    .menuTop2 {
+        display: none;
+    }
+    section#fishChem {
+        .fishChemBlock {
+            text-align: center;
+            margin-bottom: 30px;
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .fishChemFoot p {
+            width: 100%;
+        }
+    }
+    section#blocks3 {
+        .blocks3Block {
+            text-align: center;
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    .holodPodKluch {
+        .bordRight:nth-child(2) {
+            border-right: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapPartnerImg img {
+        display: inline-block;
+    }
+    .infoBlock {
+        margin-bottom: 30px;
+    }
+    footer {
+        .footerBlocks {
+            margin-bottom: 30px;
+            opacity: 1;
+        }
+    }
+    .slideText {
+        top: 60%;
+    }
+    #holod section#tabsBlock .tab-pane .wrapImg {
+        margin-top: 30px;
+    }
+    .holodPodKluch .wrapBlock {
+        min-height: auto;
+    }
+    #certif2 .wrapCertificate .overlay {
+        margin-bottom: 20px;
+    }
+    #owl4 .owl-nav {
+        display: block;
+    }
+    #tehObl {
+        .tehOblText {
+            padding-top: 0;
+            p{
+                text-align: justify;
+            }
+        }
+        .wrapTehOblImg {
+            background-color: transparent;
+            img{
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+    #projects{
+        .wrapProjImg{
+            background-color: transparent;
+            img{
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    section.headings {
+        h1 {
+            font-size: 40px;
+        }
+    }
+    .certificates .wrapCertificate {
+        padding: 0;
+    }
+}
+
+@media (max-width: 420px) {}
+
+@media (pointer: coarse) {
+    .parallax2 {
+        background-attachment: scroll;
+        background-position: 50% 50%;
+    }
+}

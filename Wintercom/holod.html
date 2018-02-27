@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <header>
+        <header>
         <section class="menuTop">
             <div class="container">
                 <div class="row">
@@ -51,7 +51,7 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li  class="active">
+                                    <li>
                                         <a href="index.html">Винтерком</a>
                                         <ul class="subMenu">
                                             <li>
@@ -65,7 +65,7 @@
                                     <li>
                                         <a href="projection.html">Проектирование</a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="holod.html">Холод</a>
                                         <ul class="subMenu list-unstyled">
                                             <li>
@@ -112,7 +112,7 @@
         </section>
 
         <!-- меню всплывающее при скролле -->
-        <section class="menuTop2">
+        <section class="menuTop2 view alwaysView">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-2 logoTop">
@@ -136,7 +136,7 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li class="active">
+                                    <li>
                                         <a href="index.html">Винтерком</a>
                                         <ul class="subMenu">
                                             <li>
@@ -150,7 +150,7 @@
                                     <li>
                                         <a href="projection.html">Проектирование</a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="holod.html">Холод</a>
                                         <ul class="subMenu list-unstyled">
                                             <li>
@@ -196,8 +196,6 @@
             <!-- end container -->
         </section>
 
-
-        <!-- Модаль -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -206,7 +204,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                         <ul class="list-unstyled">
-                            <li class="active">
+                            <li>
                                 <a href="index.html">Винтерком</a>
                                 <ul class="list-unstyled">
                                     <li>
@@ -243,7 +241,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="climat.html">Климат</a>
                             </li>
                             <li>
@@ -263,128 +261,190 @@
                 </div>
             </div>
         </div>
-
-        <section>
-            <div class="owl-carousel owl-theme" id="owl1">
-                <div class="slide">
-                    <div class="slider1 abs slidersImg"></div>
-                    <div class="relative slideText text-center">
-                        <h1 class="text-uppercase">Проектирование</h1>
-                        <h4>Проектирование систем холодоснабжения, вентиляции, отопления и автоматизации</h4>
-                        <a href="#" type="button">Подробнее</a>
-                    </div>
-                    <!-- <img src="img/back-001.jpg" alt=""> -->
-                </div>
-                <div class="slide">
-                    <div class="slider2 abs slidersImg"></div>
-                    <div class="relative slideText text-center">
-                        <h1 class="text-uppercase">Холод</h1>
-                        <h4>Комплектация и поставка холодильного оборудования</h4>
-                        <p class="fz18 Oswald">Cовременные системы холодоснабжения на базе надежных комплектующих:</p>
-                        <p class="fz15">компрессоров Emerson, Back, Bitzer (Германия), насосов Grundfos (Дания), автоматики Danfoss (Дания)
-                            и AWP (Германия), Siemens (Германия), ABB (Швеция), теплообменников Guentner (Германия), Alfa
-                            Laval (Швеция)</p>
-                        <a href="#" type="button">Подробнее</a>
-                    </div>
-                    <!-- <img src="img/back-002.jpg" alt=""> -->
-                </div>
-                <div class="slide">
-                    <div class="slider3 abs slidersImg"></div>
-                    <div class="relative slideText text-center">
-                        <h1 class="text-uppercase">Климат</h1>
-                        <h4>Системы кондиционирования, вентиляции, отопления и автоматизация данных систем</h4>
-                        <a href="#" type="button">Подробнее</a>
-                    </div>
-                    <!-- <img src="img/back-003.jpg" alt=""> -->
-                </div>
-                <div class="slide">
-                    <div class="slider4 abs slidersImg"></div>
-                    СЕРВИC Обслуживание систем холодоснабжения и вентиляции Монтажные работы, Проектирование, Реконструкция систем холодоснабжения,
-                    Технический аудит, Техническое обслуживание
-                    <!-- <img src="img/back-004.jpg" alt=""> -->
-                    <div class="relative slideText text-center">
-                        <h1 class="text-uppercase">Сервис</h1>
-                        <h4>Обслуживание систем холодоснабжения и вентиляции</h4>
-                        <p class="fz18 Oswald">Монтажные работы, Проектирование, Реконструкция систем холодоснабжения, Технический аудит, Техническое
-                            обслуживание
-                        </p>
-                        <a href="#" type="button">Подробнее</a>
-                    </div>
-                </div>
-
-            </div>
-            <!-- end owl-carousel -->
-            <div class="chooseSlide text-center">
-                <a href="#" class="slideIcons active" data-item="0">
-                    <img src="img/slideIcon1.png" alt="">
-                </a>
-                <a href="#" class="slideIcons" data-item="1">
-                    <img src="img/slideIcon2.png" alt="">
-                </a>
-                <a href="#" class="slideIcons" data-item="2">
-                    <img src="img/slideIcon3.png" alt="">
-                </a>
-                <a href="#" class="slideIcons" data-item="3">
-                    <img src="img/slideIcon4.png" alt="">
-                </a>
-            </div>
-
-        </section>
     </header>
 
-    <section class="headings text-center">
-        <div class="container">
-            <div class="row anim-block">
-                <div class="col-xs-12">
-                    <h1 class="scale-block">Холодоснабжение, Вентиляция, Автоматизация</h1>
-                    <h3 class="text-uppercase animBlock" data-offset="0" data-animclass="animated slideInUp" >
-                        <span>Проект, поставка, монтаж, пусконаладка, сервис</span>
-                    </h3>
+    <section id="holod">
+        <section class="headings black text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="scale-block">Холодоснабжение</h1>
+                        <h3 class="text-uppercase slideReady">
+                            <span>Проект, поставка, монтаж, пусконаладка, сервис</span>
+                        </h3>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id="tabsBlock">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="tabsBlockHead text-center">Системы хранения для агрокомплекса</h2>
+                    </div>
+                    <div class="col-xs-12">
+                        <div>
+                            <!-- Навигационные вкладки -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#meat" aria-controls="meat" role="tab" data-toggle="tab">Мясо</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#milk" aria-controls="milk" role="tab" data-toggle="tab">Молоко</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#fruits" aria-controls="fruits" role="tab" data-toggle="tab">Овощи, фрукты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end col-xs-12 -->
+                </div>
+                <!-- end row -->
+
+                <!-- Вкладки панелей -->
+                <div class="row noMargin">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="meat">
+                            <div class="col-sm-7">
+                                <h3>Охлаждение мяса после забоя</h3>
+                                <p class="text-justify">Для созревания полутуш, после забоя мясо необходимо в течение 1-3 суток хранить в камерах
+                                    с температурой около +4 °С. При этом мясо приобретает новые качественные показатели:
+                                    исчезает его жесткость, оно приобретает сочность и специфический приятный запах, на поверхности
+                                    туши образуется плотная пленка. Для того чтобы минимизировать усушку и сохранить органолептические
+                                    свойства мяса в процессе холодильной обработки необходимо строго соблюдать технологию
+                                    охлаждения-заморозки. Неправильная холодильная обработка мяса приводит к потере товарного
+                                    веса, цвета, а длительная заморозка может спровоцировать рост кристаллов, разрушение
+                                    структуры клеток и, как следствие, появление сукровицы после дефростации.</p>
+                                <a href="#" type="button">Подробнее</a>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="wrapImg">
+                                    <img src="img/stor-meat.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="milk">
+                            <div class="col-sm-7">
+                                <h3>Охлаждение молока на приемке</h3>
+                                <p class="text-justify">Для обеспечения сельских хозяйств и предприятий молочной отрасли бесперебойной приемкой молока,
+                                    инженеры компании «Винтерком» активно применяют установки получения ледяной воды с аккумуляцией
+                                    холода. Установки получения ледяной воды полностью соответствуют последним требованиям
+                                    отечественных и международных стандартов (ГОСТ, СанПиН, ИСО) в области переработки и
+                                    производства молока. Они характеризуются уменьшением номинальной электрической мощности
+                                    холодильного и вспомогательного оборудования, отличаются пониженным расходом электроэнергии
+                                    на выработку холода, исключают подмерзание молока, обеспечивают стабильный режим работы
+                                    холодильного агрегата.</p>
+                                <a href="#" type="button">Подробнее</a>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="wrapImg">
+                                    <img src="img/stor-milk.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="fruits">
+                            <div class="col-sm-7">
+                                <h3>Строительство овощехранилищ</h3>
+                                <p class="text-justify">Наиболее распространены холодильники с вместимостью камер 100...900 т, высотой до 6 м. Чем
+                                    больше вместимость камеры, тем производительнее должна быть система перемешивающей вентиляции
+                                    для выравнивания условий хранения по всему объему. Каждую камеру необходимо загружать
+                                    однородной продукцией (одним сортом с одинаковой степенью зрелости), лучше в одинаковой
+                                    таре. Каждая камера холодильника должна иметь автономное сообщение с помещением для товарной
+                                    обработки продукции. Для охлаждения камер холодильников применяют компрессорные холодильные
+                                    установки . В качестве хладагентов используют современные хладоны не разрушающие озоновый
+                                    слой. Хладопроизводительность установок для овощехранилищ 42...210кВт.</p>
+                                <a href="#" type="button">Подробнее</a>
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="wrapImg">
+                                    <img src="img/stor-agro.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
 
-    <section class="info animBlock2">
+    <section id="fishChem">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="infoBlock text-center hidden" id="slideLeftSecond">
-                        <img src="img/info_01.png" alt="">
-                        <h3 class="text-uppercase">На рынке с 2003 года</h3>
-                        <p>Мы являемся инженерной компанией, профессионально занимающиеся холодоснабжением в различных отраслях
-                            на всей территории Российской Федерации.</p>
+                <div class="col-md-6">
+                    <div class="fishChemBlock animBlock invisible" data-offset="100" data-animClass="animated slideInLeft">
+                        <h3>Рыбная промышленность</h3>
+                        <h4>Заморозка рыбы в плиточных аппаратах</h4>
+                        <a href="#">
+                            <img src="img/stor-fish.jpg" alt="" class="img-responsive">
+                        </a>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="infoBlock text-center" id="slideLeftFirst">
-                        <img src="img/info_04.png" alt="">
-                        <h3 class="text-uppercase">Более 200 объектов</h3>
-                        <p>Монтажные и пусконаладочные работы холодильного оборудования, техническое обслуживание холодильных
-                            систем, ремонт оборудования в любой точке России.</p>
+                <div class="col-md-6">
+                    <div class="fishChemBlock animBlock invisible" data-offset="100" data-animClass="animated slideInRight">
+                        <h3>Химическая промышленность</h3>
+                        <h4>Чиллеры для производства охлажденной жидкости</h4>
+                        <a href="#">
+                            <img src="img/stor-chemical.jpg" alt="" class="img-responsive">
+                        </a>
+
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="infoBlock text-center" id="slideRightFirst">
-                        <img src="img/info_03.png" alt="">
-                        <h3 class="text-uppercase">ИТР специалисты</h3>
-                        <p>Используя богатый накопленный опыт и современные технологии, наши сотрудники помогут подобрать рациональные
-                            инженерные решения в холодоснабжении различных объектов.</p>
+            </div>
+            <div class="row">
+                <div class="fishChemFoot text-center animBlock invisible" data-offset="100" data-animClass="animated fadeIn">
+                    <p class="text-center">Мы поможем Вам составить техническое задание и в течение 24 часов подобрать необходимое оборудование.</p>
+                    <a href="#" type="button">
+                        <span class="glyphicon glyphicon-earphone"></span>
+                        <span class="hoverBlock"></span>+7 (843) 276-0005</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blocks3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blocks3Block animBlock invisible" data-offset="100" data-animClass="animated slideInUp">
+                        <h3>Магазиностроение</h3>
+                        <h4>комплексное оснащение предприятий розничной торговли</h4>
+                        <img src="img/stor-shop.jpg" alt="" class="img-responsive">
+                        <p>Являясь партнером крупнейшего отечественного производителя – BRANDFORD, мы предлагаем нашим контрагентам
+                            новое высококачественное, торгово-холодильное оборудование: холодильные витрины, холодильные
+                            горки и бонеты со встроенным агрегатом и под выносное холодоснабжение.</p>
+                        <a href="#">Подробнее</a>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="infoBlock text-center hidden" id="slideRightSecond">
-                        <img src="img/info_02.png" alt="">
-                        <h3 class="text-uppercase">Сервисные бригады</h3>
-                        <p>Мы имеем тесные и долгосрочные связи с ведущими российскими и иностранными производителями холодильного
-                            оборудования, и являемся их представителями.</p>
+                <div class="col-md-4">
+                    <div class="blocks3Block animBlock invisible" data-offset="100" data-animClass="animated slideInUp">
+                        <h3>Холодильные склады</h3>
+                        <h4>длительного хранения скоропортящихся продуктов</h4>
+                        <img src="img/stor-storage.jpg" alt="" class="img-responsive">
+                        <p>Мы предлагаем специально подобранное холодильное оборудование: моноблоки, сплит-системы, централи.
+                            Все расчеты необходимого оборудования выполняются с помощью современных программ, учитывающих
+                            актуальность выбора всех агрегатов холодильной системы в целом.</p>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blocks3Block animBlock invisible" data-offset="100" data-animClass="animated slideInUp">
+                        <h3>Испытательные камеры</h3>
+                        <h4>обслуживание испытательных, климатических камер</h4>
+                        <img src="img/store-camera.jpg" alt="" class="img-responsive">
+                        <p>Ремонт и техническое обслуживание, модернизация испытательных и климатических камер, приведение их
+                            характеристик к современным требованиям, подготовка к прохождению аттестации, это то, чем давно
+                            и успешно занимаются специалисты компании "Винтерком".</p>
+                        <a href="#">Подробнее</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="partners">
+
+    <section class="partners backGr">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -481,250 +541,103 @@
         <!-- end container -->
     </section>
 
-    <div class="parallax"></div>
-
-    <section class="certificates">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-4">
-                    <div class="wrapCertificate relative">
-                        <div class="overlay">
-                            <!-- <img src="img/sertificate_01.jpg" alt="" class="img-responsive"> -->
-                            <a data-fancybox="gallery" href="img/sertificate_01.jpg">
-                                <img src="img/sertificate_01.jpg">
-                                <p class="abs">Свидетельство о допуске к производству проектных работ</p>
-                            </a>
-                        </div>
-
+    <section>
+        <div class="holodPodKluch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 animBlock" data-offset="50" data-animClass="animated zoomIn">
+                        <h2 class="text-center">Холод под ключ</h2>
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    <div class="wrapCertificate relative">
-                        <div class="overlay">
-                            <a data-fancybox="gallery" href="img/sertificate_02.jpg">
-                                <img src="img/sertificate_02.jpg">
-                                <p class="abs">Сертификат авторизованного сервисного центра ОСТРОВ</p>
-                            </a>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 bordRight">
+                        <div class="wrapBlock animBlock" data-offset="50" data-animClass="animated zoomIn">
+                            <h3>Наша компания</h3>
+                            <p class="text-justify">начала свой путь в 1991 году и продолжает успешно работать для предприятий, применяющих искусственный
+                                холод.
+                            </p>
                         </div>
-
+                    </div>
+                    <div class="col-md-3  col-sm-6 bordRight">
+                        <div class="wrapBlock animBlock" data-offset="50" data-animClass="animated zoomIn">
+                            <h3>Наша работа</h3>
+                            <p class="text-justify">основана на профессиональной компетентности и опыте специалистов, взаимном доверии при взаимодействии
+                                с Заказчиком на всех этапах работы.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-sm-6 bordRight">
+                        <div class="wrapBlock animBlock" data-offset="50" data-animClass="animated zoomIn">
+                            <h3>Мы выполняем</h3>
+                            <p class="text-justify">обследование предприятий, разработку концепций их строительства или реконструкции, подбор оборудования,
+                                проектные работы, поставку оборудования и материалов, а также монтажные, пуско-наладочные
+                                работы и сервисное обслуживание.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-sm-6 bordRight">
+                        <div class="wrapBlock animBlock" data-offset="50" data-animClass="animated zoomIn">
+                            <h3>Мы являемся</h3>
+                            <p>коллективным членом «Международной Академии Холода», членом «Российского союза предприятий холодильной
+                                промышленности».
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-4">
-                    <div class="wrapCertificate relative">
-                        <div class="overlay">
-                            <a data-fancybox="gallery" href="img/sertificate_03.jpg">
-                                <img src="img/sertificate_03.jpg">
-                                <p class="abs">Свидетельство о допуске (Безопасность Объектов Капитального Строительства)</p>
-                            </a>
+                <!-- end row -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="holodPodKluchFooter text-center animBlock" data-offset="50" data-animClass="animated zoomIn">
+                            <p>Мы работаем по всей территории Российской Федерации и странам СНГ</p>
+                            <a href="#" type="button">
+                                <span class="glyphicon glyphicon-earphone"></span>
+                                <span class="hoverBlock"></span>+7 (843) 276-0005</a>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="clients">
+    <section id="pdf">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <h3 class="text-uppercase clientsHead">
-                        <span>Наши клиенты</span>
-                    </h3>
-                </div>
-            </div>
-            <div class="row fading2">
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_01.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_02.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_03.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_04.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_05.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_06.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_07.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_08.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_09.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_10.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_11.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_12.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_13.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <div class="wrapClientImg">
-                        <img src="img/clients/clients_14.png" alt="" class="img-responsive">
-                    </div>
+                <div class="col-xs-12 text-center animBlock" data-offset="50" data-animClass="animated fadeIn">
+                    <h2>Хотите ускорить выполнение вашего заказа?</h2>
+                    <p>Заполните и пришлите нам по факсу или электронной почте опросные листы. Наши менеджеры рассмотрят заявку
+                        и оперативно ответят вам. Это ускорит работу по вашему проекту.</p>
                 </div>
             </div>
             <!-- end row -->
             <div class="row">
-                <div class="col-xs-12">
-                    <h3 class="clientsProject">
-                        <span>И проекты, которые мы сделали для них</span>
-                    </h3>
+                <div class="col-md-4">
+                    <div class="pdfBlock text-center animBlock" data-offset="50" data-animClass="animated slideInDown">
+                        <h3>Холодильная камера</h3>
+                        <p>Опросный лист</p>
+                        <a href="#">
+                            <img src="img/wintercom-camera.jpg" alt="">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="owl-carousel owl-theme owl-carousel2" id="owl2">
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-alabuga-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-apk-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-chuvash-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-demetra-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-havi-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-mamadysh-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-metro-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-poteto-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-shvabe-m.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="img/projects/project-zelen-m.jpg" alt="">
-                            </a>
-                        </div>
+                <div class="col-md-4">
+                    <div class="pdfBlock text-center animBlock" data-offset="50" data-animClass="animated slideInDown">
+                        <h3>Охлаждение жидкости</h3>
+                        <p>Опросный лист</p>
+                        <a href="#">
+                            <img src="img/wintercom-liquid.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pdfBlock text-center animBlock" data-offset="50" data-animClass="animated slideInDown">
+                        <h3>Льдогенератор</h3>
+                        <p>Опросный лист</p>
+                        <a href="#">
+                            <img src="img/wintercom-ice-generator.jpg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
-            <!-- end row -->
         </div>
-        <!-- end container -->
     </section>
-
-
-    <section class="question">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2 class="text-center">Остались вопросы?</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="wrapForm">
-                        <div>
-                            <h3>Заявка</h3>
-                            <p>Если у вас есть вопросы - напишите нам!</p>
-                        </div>
-                        <div>
-                            <form action="#">
-                                <div class="form-group invisible">
-                                    <label for="name">Имя</label>
-                                    <input type="text" class="form-control" id="name" required>
-                                </div>
-                                <div class="form-group invisible">
-                                    <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" required>
-                                </div>
-                                <div class="form-group invisible">
-                                    <label for="phone">Телефон</label>
-                                    <input type="text" class="form-control" id="phone" required>
-                                </div>
-                                <div class="form-group invisible">
-                                    <label for="message">Сообщение</label>
-                                    <textarea class="form-control" rows="5" id="message" required></textarea>
-                                </div>
-                                <div class="form-group text-right invisible">
-                                    <button type="submit" class="btn btn-default">Отправить</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 hidden-sm hidden-xs">
-                    <div class="text-center manImg">
-                        <img src="img/man-01.png" alt="" class="">
-                    </div>
-                </div>
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </section>
-
 
 
     <footer>
