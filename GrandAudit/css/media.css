@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+  .navbar-nav li {
+    float: none;
+    display: inline-block; }
+    .navbar-nav li:not(:last-child) {
+      margin-right: 3px; }
+  #secondMenu .navbar-nav li:not(:last-child) {
+    margin-right: 16px; }
+  .circle {
+    margin-top: 120px;
+    margin-bottom: 120px; }
+  .leftTopText,
+  .leftBottomText {
+    margin-right: 40px; }
+  .rightTopText,
+  .rightBottomText {
+    margin-left: 40px; }
+  .leftBottomText,
+  .rightBottomText {
+    margin-top: 20px; } }
+
+@media (max-width: 991px) {
+  #logotip {
+    text-align: center; }
+  .flex {
+    display: block; }
+  .wrapImgProject p {
+    position: static;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center; }
+  .owl-carousel .owl-nav .owl-prev {
+    margin-left: 0px; }
+  .owl-carousel .owl-nav .owl-next {
+    margin-right: 0px; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .clientItem a {
+    top: 246px; } }
+
+@media (max-width: 768px) {
+  .textBlock {
+    position: static;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 30px; }
+  .textBlock.leftTopText {
+    margin-top: 0; }
+  .noPadding {
+    padding-left: 15px;
+    padding-right: 15px; } }
