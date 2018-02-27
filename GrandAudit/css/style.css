@@ -259,16 +259,9 @@ header {
 
 #jumbo {
   height: 445px;
-  /* background-color: #003045; */
-  /* background: url(../img/fonKazan.png) no-repeat no-repeat; */
-  /* background-position: 50% 50%;  */
-}
-
-#jumbo img.fonImg {
-  position: absolute;
-  height: 445px;
-  width: 100%;
-  z-index: -1;
+  background-color: #003045;
+  background: url(../img/fonKazan.png) no-repeat no-repeat; 
+  background-position: 50% 50%; 
 }
 
 #jumbo h1 {
