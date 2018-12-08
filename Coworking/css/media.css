@@ -8,6 +8,13 @@
   .wrapText h2.header {
     font-size: 26px; } }
 
+@media (min-width: 0px) and (max-width: 991.98px) {
+  .navbar-nav {
+    float: right;
+    text-align: right;
+    background-color: #000;
+    opacity: 0.8; } }
+
 @media (min-width: 576px) {
   #jumbo .jumbotext h1 {
     font-size: 48px; } }
