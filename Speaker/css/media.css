@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+  .map {
+    margin-top: 40px; } }
+
+@media (max-width: 768px) {
+  .menuTop ul.menu {
+    z-index: 2;
+    width: 200px;
+    position: absolute;
+    left: -200px;
+    top: 70px;
+    display: block;
+    background-color: #1e1d24;
+    border-right: 1px solid #fff;
+    -webkit-transition: left 0.3s;
+    transition: left 0.3s; }
+    .menuTop ul.menu li.menuItem {
+      display: block;
+      margin-bottom: 15px;
+      padding: 15px; }
+      .menuTop ul.menu li.menuItem a {
+        font-size: 16px;
+        font-weight: normal; }
+    .menuTop ul.menu.anim {
+      left: 0;
+      -webkit-transition: left 0.3s;
+      transition: left 0.3s; }
+  section#hours .countDown {
+    font-size: 30px; }
+    section#hours .countDown p.subtitle {
+      font-size: 16px; }
+    section#hours .countDown .point {
+      width: 8px;
+      height: 8px;
+      background-color: #fff;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      margin: 0 10px 10px; } }
+
+@media (max-width: 576px) {
+  header {
+    min-height: 0; }
+  .blockText h1 {
+    font-size: 40px; } }
