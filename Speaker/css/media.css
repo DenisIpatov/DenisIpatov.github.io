@@ -3,6 +3,9 @@
     margin-top: 40px; } }
 
 @media (max-width: 768px) {
+  section#testimonials .sectHeading h2{
+    font-size: 28px;
+  }
   .menuTop ul.menu {
     z-index: 2;
     width: 200px;
