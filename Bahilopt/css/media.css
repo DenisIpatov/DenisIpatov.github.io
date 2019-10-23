@@ -1,0 +1,7 @@
+@media (max-width: 991px) {
+  header.logo {
+    text-align: center; }
+  .info i {
+    display: inline-block; }
+  .info p {
+    display: inline-block; } }
